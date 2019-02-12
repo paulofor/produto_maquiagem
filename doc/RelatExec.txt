@@ -1,0 +1,8 @@
+(12-02-2019)
+
+Criar um versão nova baseada em sidemenu.
+
+criar todos os componentes e paginas.
+
+instalar script e lab
+
