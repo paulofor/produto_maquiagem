@@ -4,8 +4,12 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
-import { ListPage } from '../pages/list/list';
-import { ResumoEventoPage } from '../pages/resumo-evento/resumo-evento';
+import { ProdutosPage } from '../pages/produtos/produtos';
+import { BocaPage } from '../pages/boca/boca';
+import { OlhosPage } from '../pages/olhos/olhos';
+import { CadastroEventoPage } from '../pages/cadastro-evento/cadastro-evento';
+import { CadastroProdutoPage } from '../pages/cadastro-produto/cadastro-produto';
+import { ListaEventoPage } from '../pages/lista-evento/lista-evento';
 
 @Component({
   templateUrl: 'app.html'
@@ -22,9 +26,12 @@ export class MyApp {
 
     // used for an example of ngFor and navigation
     this.pages = [
-      { title: 'Home', component: HomePage },
-      { title: 'List', component: ListPage },
-      { title: 'ResumoEvento' , component: ResumoEventoPage}
+      { title: 'Fotos - Bocas', component: BocaPage },
+      { title: 'Fotos - Olhos', component: OlhosPage },
+      { title: 'Evento - Cadastro' , component: CadastroEventoPage},
+      { title: 'Evento - Lista' , component: ListaEventoPage },
+      { title: 'Produto - Cadastro' , component : CadastroProdutoPage },
+      { title: 'Produto - Evento' , component: ProdutosPage}
     ];
 
   }
@@ -41,6 +48,6 @@ export class MyApp {
   openPage(page) {
     // Reset the content nav to have just this page
     // we wouldn't want the back button to show in this scenario
-    this.nav.setRoot(page.component);
+    this.nav.push(page.component);
   }
 }

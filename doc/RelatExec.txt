@@ -1,3 +1,129 @@
+(01-03-2019)
+
+Pronto !!!
+
+
+(28-02-2019)
+
+Fechamento do Prototipo.
+
+O que falta ?
+
+1- Cor do titulo.
+2- Gerar foto screenshot.
+
+
+Fotos Boca --> ok
+Fotos Olhos --> ok
+Evento Cadastro --> melhorar
+Evento Lista --> ok
+Produto Cadastro --> melhorar
+Produto Evento --> ok.
+
+Faltando somente o título
+-------------------------
+
+
+(25-02-2019) - Prototipo
+
+Boca01 -> 186 x 157
+Boca02 -> 179 x 153
+Boca03 -> 
+Boca04 ->
+Boca05 ->
+Boca06 ->
+
+Tela de Bocas pronta.
+
+O que falta ?
+
+---> TELAS DEFINIDAS !!!!
+
+
+(25-02-2019)  - Valor de Projeto.
+
+Fazendo o modelo de objetos. Os 3 valores principais estão criados ( muito bom isso !!! )
+
+
+
+
+(22-02-2019)
+
+
+Trabalhar imagens, seguindo exemplo de boca01
+
+Recortar com cerca de 140 x 140 --> depois tentar crescer ( não sei se precisa ou da pra fazer no ionic )
+
+
+(21-02-2019)
+
+Não consegue achar imagem !!!!
+
+Ajustando imagens
+
+
+
+(20-02-2019)
+
+Fazer com o novo visual.
+
+Editar as fotos e tentar colocar na tela.
+
+
+
+(19-02-2019)
+
+Usar o ionic-creator.
+
+Fiz no ionic-creator, peguei algumas idéias tentar usar.
+
+Tentando colocar a pagina de produtos com o estilo do ionic creatos
+
+Depois colocar a de boca, rosto, olhos.
+
+
+
+
+(18-02-2019)
+
+
+
+Tentando usar tabs - para fotos (produtos, rosto, boca, olhos )
+
+
+
+
+(16-02-2019)
+
+Ver como anda a lista.
+Lista de produtos de beleza.
+
+estudar quais campos colocar. Posso ir criando os objetos no validador. Modelo de dados tbm
+
+ion-label não funciona. Não entendendo pq esta dando esses problemas.
+
+Será que o problema é estar em component ?
+
+NAO DA PRA USAR COMPONENTES !!!
+
+Mudar Look por Make
+
+Pesquisando produtos para colocar na lista.
+
+
+
+(14-02-2019)
+
+Fiz versão nova, executando.
+
+Temos UML de com objetos de apresentação.
+
+Estou tentando construir uma lista.
+
+
+
+
+
 (12-02-2019)
 
 Criar um versão nova baseada em sidemenu.

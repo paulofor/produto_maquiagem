@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { Screenshot } from '@ionic-native/screenshot';
 
 /**
  * Generated class for the ResumoEventoPage page.
@@ -15,11 +16,16 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class ResumoEventoPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, private screenshot: Screenshot, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad ResumoEventoPage');
   }
+
+  testaFoto() {
+    this.screenshot.save('jpg', 100, 'ResumoEventoPage');
+  }
+
 
 }

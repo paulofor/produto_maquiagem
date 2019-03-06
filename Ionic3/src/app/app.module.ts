@@ -11,12 +11,27 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { ComponentsModule } from '../components/components.module';
 import { ResumoEventoPage } from '../pages/resumo-evento/resumo-evento';
 
+import { ProdutosPage } from '../pages/produtos/produtos';
+import { BocaPage } from '../pages/boca/boca';
+import { OlhosPage } from '../pages/olhos/olhos';
+import { CadastroEventoPage } from '../pages/cadastro-evento/cadastro-evento';
+import { ListaEventoPage } from '../pages/lista-evento/lista-evento';
+import { CadastroProdutoPage } from '../pages/cadastro-produto/cadastro-produto';
+import { Screenshot } from '@ionic-native/screenshot';
+
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     ListPage,
-    ResumoEventoPage
+    ResumoEventoPage,
+    ProdutosPage,
+    BocaPage,
+    OlhosPage,
+    CadastroEventoPage,
+    ListaEventoPage,
+    CadastroProdutoPage,
+    
   ],
   imports: [
     BrowserModule,
@@ -28,13 +43,20 @@ import { ResumoEventoPage } from '../pages/resumo-evento/resumo-evento';
     MyApp,
     HomePage,
     ListPage,
-    ResumoEventoPage
+    ResumoEventoPage,
+    ProdutosPage,
+    BocaPage,
+    OlhosPage,
+    CadastroEventoPage,
+    ListaEventoPage,
+    CadastroProdutoPage
 
   ],
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    Screenshot
   ]
 })
 export class AppModule {}

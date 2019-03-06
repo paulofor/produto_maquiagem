@@ -1,0 +1,25 @@
+<ion-header >
+  <ion-navbar color="especial">
+    <ion-title (click)="testaFoto()">Novo Evento</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="quadroBase">
+  <ion-list>
+
+    <ion-item>
+      <ion-label floating>Nome do evento</ion-label>
+      <ion-input type="text" value=""></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label floating>Data</ion-label>
+      <ion-datetime displayFormat="DD/MM/YYYY" pickerFormat="DD/MM/YYYY" ></ion-datetime>
+    </ion-item>
+
+  </ion-list>
+
+  <div padding>
+    <button ion-button color="botao" block>Enviar</button>
+  </div>
+</ion-content>

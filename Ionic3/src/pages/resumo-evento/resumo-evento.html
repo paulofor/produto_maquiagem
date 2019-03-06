@@ -5,11 +5,43 @@
   Ionic pages and navigation.
 -->
 <ion-header>
-  <ion-navbar>
-    <ion-title>ResumoEvento</ion-title>
+  <ion-navbar color="especial">
+    <ion-title (click)="testaFoto()">ResumoEvento</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-<lista-produto-usado></lista-produto-usado>
+  <ion-list>
+    <ion-list-header color="primary">
+      <ion-label>Produtos</ion-label>
+    </ion-list-header>
+    <ion-item color="light">
+      <p>Batom Líquido Vinil Vermenil </p>
+      <p>quem disse, berenice ?</p>
+    </ion-item>
+    <ion-item color="light">
+      <p>Sombra Preta</p>
+      <p>Vult Make Up Quintetos 01 Diva</p>
+    </ion-item>
+    <ion-item color="light">
+      <p>Máscara Alongamento Perfeito</p>
+      <p>Eudora</p>
+    </ion-item>
+    <ion-item color="light">
+      <p>Iluminador Precious Petals</p>
+      <p>Wet n Wild</p>
+    </ion-item>
+    <ion-item color="light">
+      <p>Glitter Bronze</p>
+      <p>NYX</p>
+    </ion-item>
+  </ion-list>
+
+  <ion-tabs>
+    <ion-tab tabIcon="contact" [root]="tab1"></ion-tab>
+    <ion-tab tabIcon="compass" [root]="tab2"></ion-tab>
+    <ion-tab tabIcon="analytics" [root]="tab3"></ion-tab>
+    <ion-tab tabIcon="settings" [root]="tab4"></ion-tab>
+  </ion-tabs>
+  
 </ion-content>
